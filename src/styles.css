@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background-white: #FAFAFA;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--background-white);
+}
+
+#header {
+    display: block;
+    margin-left: 0.03vw;
+}
+
+#title {
+    position: absolute;
+    width: 278px;
+    height: 47px;
+    top: 0.05vh;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+
+#who-we-are {
+    position: absolute;
+    width: 117px;
+    height: 0.11vh;
+    top: 156px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+#description {
+    position: absolute;
+    width: 333px;
+    height: 0.14vh;
+    top: 193px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+@media screen and (min-width: 680px) {
+
+}

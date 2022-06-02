@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--link href="styles.css" rel="stylesheet" type="text/css"-->
+    <title>Meet The Team</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'serif': 'PT Serif',
+                    'sans': 'Poppins'
+                },
+                fontWeight: {
+                    'bold': 700,
+                    'semibold': 600,
+                },
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="h-full bg-zinc-50">
+    <div class="min-h-full flex flex-col">
+        <header class="flex flex-col md:flex-row justify-evenly my-10">
+            <h2 class="font-serif font-bold text-4xl">The creative crew</h2>
+            <div class=" flex flex-col">
+                <p class="uppercase font-sans font-semibold">who we are</p>
+                <p class="font-sans">We are a team of creatively diverse, driven,<br>
+                    innovative individuals working in various<br>
+                    locations from the world.</p>
+            </div>
+        </header>
+        <main class="grid grid-cols-2 md:grid-cols-3 gap-10 w-8/12 mx-auto my-5">
+            <section class="relative basis-1/4">
+                <div class="relative w-11/12">
+                    <img class="" src="../assets/photo1.png">
+                    <p class="font-sans font-semibold">Bill Mahoney</p>
+                </div>
+                <p class="uppercase absolute w-max left-full font-serif rotate-90 origin-top-left">product owner
+                </p>
+            </section>
+            <section class="relative basis-1/4">
+                <div class="relative w-11/12">
+                    <img class="" src="../assets/photo2.png">
+                    <p class="font-sans font-semibold">Saba Cabrera</p>
+                </div>
+                <p class="uppercase absolute w-max left-full font-serif rotate-90 origin-top-left">art director</p>
+            </section>
+            <section class="relative basis-1/4">
+                <div class="relative w-11/12">
+                    <img src="../assets/photo3.png">
+                    <p class="font-sans font-semibold">Shae Le</p>
+                </div>
+                <p class="uppercase absolute w-max left-full font-serif rotate-90 origin-top-left">tech lead</p>
+            </section>
+            <section class="relative basis-1/4">
+                <div class="relative w-11/12">
+                    <img src="../assets/photo4.png">
+                    <p class="font-sans font-semibold">Skylah Lu</p>
+                </div>
+                <p class="uppercase absolute w-max left-full font-serif rotate-90 origin-top-left">UX designer</p>
+            </section>
+            <section class="relative basis-1/4">
+                <div class="relative w-11/12">
+                    <img src="../assets/photo5.png">
+                    <p class="font-sans font-semibold">Griff Richards</p>
+                </div>
+                <p class="uppercase absolute w-max left-full font-serif rotate-90 origin-top-left">developer</p>
+            </section>
+            <section class="relative basis-1/4">
+                <div class="relative w-11/12">
+                    <img src="../assets/photo6.png">
+                    <p class="font-sans font-semibold">Stan John</p>
+                </div>
+                <p class="uppercase absolute w-max left-full font-serif rotate-90 origin-top-left">developer</p>
+            </section>
+        </main>
+        <footer class="text-center py-10">
+            <p class="font-sans">created by <a href="https://github.com/holachau23">Augusto</a>-devChallenges.io</p>
+        </footer>
+    </div>
+</body>
+
+</html>
