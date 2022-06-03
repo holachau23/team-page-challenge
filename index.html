@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--link href="styles.css" rel="stylesheet" type="text/css"-->
+    <title>Meet The Team</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'serif': 'PT Serif',
+                    'sans': 'Poppins'
+                },
+                fontWeight: {
+                    'bold': 700,
+                    'semibold': 600,
+                },
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="h-full bg-zinc-50">
+    <div class="min-h-full flex flex-col">
+        <header class="flex flex-col md:flex-row justify-evenly mx-2 my-16">
+            <h2 class="font-serif font-bold text-4xl">The creative crew</h2>
+            <div class="my-2 flex flex-col">
+                <p class="uppercase font-sans font-semibold">who we are</p>
+                <p class="my-2 font-sans">We are a team of creatively diverse, driven,<br>
+                    innovative individuals working in various<br>
+                    locations from the world.</p>
+            </div>
+        </header>
+        <main class="flex flex-wrap justify-evenly w-11/12 lg:w-8/12 mx-auto my-5 relative">
+            <div class="pr-2 lg:px-10 basis-1/2 md:basis-1/3">
+                <section class="relative">
+                    <div class="relative inline-block">
+                        <img class="w-11/12" src="../assets/photo1.png">
+                        <p class="font-sans font-semibold">Bill Mahoney</p>
+                    </div>
+                    <p class="uppercase inline absolute w-max left-full text-xs font-serif rotate-90 origin-top-left">
+                        product owner
+                    </p>
+                </section>
+            </div>
+            <div class="pl-2 lg:px-10 basis-1/2 md:basis-1/3">
+                <section class="relative my-20">
+                    <div class="relative w-11/12 inline-block">
+                        <img class="" src="../assets/photo2.png">
+                        <p class="font-sans font-semibold">Saba Cabrera</p>
+                    </div>
+                    <p class="uppercase inline absolute w-max left-full text-xs font-serif rotate-90 origin-top-left">
+                        art
+                        director
+                    </p>
+                </section>
+            </div>
+            <div class="pr-2 lg:px-10 basis-1/2 md:basis-1/3">
+                <section class="relative md:my-0 -my-20">
+                    <div class="relative w-11/12 inline-block">
+                        <img src="../assets/photo3.png">
+                        <p class="font-sans font-semibold">Shae Le</p>
+                    </div>
+                    <p class="uppercase inline absolute w-max left-full text-xs font-serif rotate-90 origin-top-left">
+                        tech
+                        lead</p>
+                </section>
+            </div>
+            <div class="pl-2 lg:px-10 basis-1/2 md:basis-1/3">
+                <section class="relative basis-1/3 md:-my-20">
+                    <div class="relative w-11/12 inline-block">
+                        <img src="../assets/photo4.png">
+                        <p class="font-sans font-semibold">Skylah Lu</p>
+                    </div>
+                    <p class="uppercase inline absolute w-max left-full text-xs font-serif rotate-90 origin-top-left">UX
+                        designer
+                    </p>
+                </section>
+            </div>
+            <div class="pr-2 lg:px-10 basis-1/2 md:basis-1/3">
+                <section class="relative basis-1/3 md:my-5">
+                    <div class="relative w-11/12 inline-block">
+                        <img src="../assets/photo5.png">
+                        <p class="font-sans font-semibold">Griff Richards</p>
+                    </div>
+                    <p class="uppercase inline absolute w-max left-full text-xs font-serif rotate-90 origin-top-left">
+                        developer</p>
+                </section>
+            </div>
+            <div class="pl-2 lg:px-10 basis-1/2 md:basis-1/3">
+                <section class="relative basis-1/3 my-20 md:-my-20">
+                    <div class="relative w-11/12 inline-block">
+                        <img src="../assets/photo6.png">
+                        <p class="font-sans font-semibold">Stan John</p>
+                    </div>
+                    <p class="uppercase inline absolute w-max left-full text-xs font-serif rotate-90 origin-top-left">
+                        developer</p>
+                </section>
+            </div>
+        </main>
+        <footer class="text-center py-1">
+            <p class="font-sans font-bold text-zinc-500">created by <a class="text-red-500"
+                    href="https://github.com/holachau23">Augusto</a>-devChallenges.io</p>
+        </footer>
+    </div>
+</body>
+
+</html>
